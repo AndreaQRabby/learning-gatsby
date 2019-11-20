@@ -5,7 +5,8 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/home/apc201819/Git_Projects/learning-gatsby/.cache/dev-404-page.js"))),
+  "component---src-pages-about-js": hot(preferDefault(require("/home/apc201819/Git_Projects/learning-gatsby/src/pages/about.js"))),
+  "component---src-pages-contact-js": hot(preferDefault(require("/home/apc201819/Git_Projects/learning-gatsby/src/pages/contact.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/home/apc201819/Git_Projects/learning-gatsby/src/pages/index.js")))
 }
 
